@@ -4,6 +4,7 @@
 */
 
 /* linking font css */
+
 @font-face {
   font-family: Roboto;
   src: url(../fonts/Roboto/Roboto-Regular.ttf);
@@ -16,12 +17,17 @@
 }
 
 @font-face {
-   font-family: PTSerifReg;
-   src: url(../fonts/PT_Serif/PT_Serif-Web-Regular.ttf);
+  font-family: PTSerifReg;
+  src: url(../fonts/PT_Serif/PT_Serif-Web-Regular.ttf);
 }
+
+/* "proxima-nova" nicer font */
 
 h1 {
   font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
 }
 
 h1, h2, h3 {
@@ -33,6 +39,7 @@ h4, h5, h6 {
 }
 
 /* adding Roboto-Regular to all elements */
+
 * {
   font-family: Roboto;
 }
@@ -42,11 +49,11 @@ body {
   padding: 2rem;
 }
 
-section:not([id]) {
-  margin: 1em 0;
-  padding: 1em 0;
-  border-bottom: 0.15em solid #333;
+p {
+  line-height: 1.25rem;
 }
+
+
 
 section h2 {
   margin-top: 0;
@@ -98,12 +105,42 @@ cite {
   font-style: normal;
 }
 
+.inputSample {
+  margin: 1rem;
+  margin-left: 0rem;
+  display: block;
+  border: 0.1rem solid #616161;
+  width: 100%;
+  /* padding: 0.5rem 1rem; */
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  width: 80%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.inputSample:hover {
+  border: 0.1rem solid #FDF853;
+}
+
+.anchorSample {
+  text-decoration: none;
+  color: #C3C8CD;
+}
+
+.anchorSample:hover {
+  color: #279FCD;
+  border-bottom: 1px solid #279FCD;
+  padding-bottom: 2px;
+}
 
 /*
   INTERACTIVE ELEMENTS -------------------
 */
 
 /* Styling for the navigation button */
+
 .button-nav {
   display: inline-block;
   padding: 0.5em 0.75em;
@@ -119,14 +156,9 @@ cite {
   background-color: #999;
 }
 
-
-
 /*
   TEXT ELEMENTS -------------------
 */
-
-
-
 
 /*
   COMBINED ELEMENTS -------------------
@@ -135,6 +167,7 @@ cite {
 #colour_style {
   border: solid 1px #000;
 }
+
 .color {
   width: 100%;
   height: 4rem;
@@ -155,3 +188,95 @@ cite {
 .four {
   background-color: #4E5454;
 }
+
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.imageCard{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+
+}
+
+.container:hover .overlay {
+  opacity: 0.6;
+  background-color: #000;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* START Footer */
+.fa {
+  color: grey;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+/* END Footer */
+
+
+/* START Navigation */
+
+.navBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navBar li a {
+  display: block;
+  text-decoration: none;
+  width: 3rem;
+  padding: 2rem;
+}
+
+
+.navBar li {
+  /* float: left; */
+  display: inline-block;
+}
+
+.navBar {
+  margin-bottom: 5rem;
+}
+
+.navBar.name li {
+  /* float: right; */
+  width: 8rem;
+}
+
+nav ul li:last-child { float: right; }
+
+nav ul li {
+  list-style:none;
+  margin:10px;
+  float: left;
+}
+
+/* END Navigation  */
