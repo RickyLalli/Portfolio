@@ -26,29 +26,21 @@
 
 
 
-	<title>Home</title>
+	<title>Style Guide</title>
 
 </head>
 
 <body>
 	<!-- base on project 1 Template -->
 
-		<div class="container">
+	<!-- <div class="container-fluid"> -->
+	<section class="jumbotron" style="background-color:white;">
 
-	<h1 class="h1">Portfolio Style Guide </h1>
+		<h1 class="h1" style="text-align:center;">Portfolio Style Guide</h1>
 
-	<p>A style guide I can use to lead me when I design the web</p>
+		<p style="text-align:center; max-width: 100%;">A style guide I can use to lead me when I design the web</p>
 
-
-
-
-
-
-
-		<p>
-			On this page:
-		</p>
-		<ul>
+		<ul style="margin: 0 auto; width:50%; text-align: center; list-style-type: none;">
 			<li>
 				<a href="#interactive_elements" class="intext-link">Interactive Elements</a>
 			</li>
@@ -60,101 +52,101 @@
 			</li>
 		</ul>
 
-		<p class="links">
-			Link for other two pages:
-			<a href="https://iw0kmw.axshare.com" class="links">User-flows</a>
-			<a href="citation.html" class="links">Citations</a>
-		</p>
+	</section>
 
 
+	<!-- INTERACTIVE ELEMENTS SECTION // -->
+	<section id="interactive_elements">
 
-		<!-- INTERACTIVE ELEMENTS SECTION // -->
-		<section id="interactive_elements">
+		<!-- Default Button styling section -->
+		<section class="jumbotron">
 
-			<!-- Default Button styling section -->
-			<section>
+			<h2>Navigation Button</h2>
 
-				<h2>Navigation Button</h2>
+			<h3>CSS selector:</h3>
+			<p>.button-nav *needs to be fixed</p>
 
-				<h3>CSS selector:</h3>
-				<p>.button-nav</p>
+			<h3>Sample code:</h3>
+			<code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
 
-				<h3>Sample code:</h3>
-				<code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
-
-				<h3>Rendered element:</h3>
-				<a class="button-nav" href="#">Default Button</a>
-
-			</section>
-
-			<!--
-	      intext link section -->
-			<section>
-				<h2>In-text link</h2>
-				<h3>CSS selector:</h3>
-				<p>.intext-link</p>
-				<h3>Sample Code:</h3>
-				<code>&lt;a href="#" &gt;In-Text Link&lt;/a&gt;</code>
-
-				<h3>Rendered element:</h3>
-				<a class="intext-link" href="https://iw0kmw.axshare.com">Home Page</a>
-
-			</section>
-
-			<section>
-				<h2>Submit/Reset Buttons</h2>
-				<h3>CSS selector:</h3>
-				<p>.submitButton</p>
-				<h3>Sample Code:</h3>
-				<code>&lt;input type="submit" value="Submit"&gt;</code>
-				<h3>Rendered element:</h3>
-				<input type="submit" class="submitButton" value="Submit">
-
-			</section>
-
-			<section>
-				<h2>Text Input Field</h2>
-				<h3>CSS selector:</h3>
-				<p>.textInput</p>
-				<h3>Sample Code:</h3>
-				<code>&lt;input type="text" value="Default text input field"&gt;</code>
-				<h3>Rendered element:</h3>
-				<input type="text" placeholder="Your Address.." class="textInput">
-			</section>
+			<h3>Rendered element:</h3>
+			<a class="button-nav" href="#">Default Button</a>
 
 		</section>
 
-		<!-- TEXT ELEMENTS SECTION // -->
-		<section id="text_elements">
 
-			<section>
-				<h2>Headings</h2>
-				<h3>CSS selector:</h3>
-				<p>.headingStyle</p>
-				<h3>Sample Code:</h3>
-				<code>&lt;h1&gt;Heading 1&lt;/h1&gt;</code>
-				<code>&lt;h2&gt;Heading 2&lt;/h2&gt;</code>
-				<code>&lt;h3&gt;Heading 3&lt;/h3&gt;</code>
-				<h3>Rendered element:</h3>
-				<h1 class="headingStyle"> Heading 1</h1>
-				<h2 class="headingStyle"> Heading 2</h2>
-				<h3 class="headingStyle"> Heading 3</h3>
+		<!-- intext link section -->
+		<section class="jumbotron" style="background-color:white;">
+			<h2>In-text link</h2>
+			<h3>CSS selector:</h3>
+			<p>a</p>
+			<h3>Sample Code:</h3>
+			<code>&lt;a href="#" &gt;In-Text Link&lt;/a&gt;</code>
 
-			</section>
+			<h3>Rendered element:</h3>
+			<a class="intext-link" href="https://iw0kmw.axshare.com">Home Page</a>
 
-			<section>
-				<h2>Paragraphs</h2>
-				<h3>CSS selector:</h3>
-				<p>.paragraphStyle</p>
-				<h3>Sample Code:</h3>
-				<code>&lt;p&gt;This is a sample paragraph of my style guide&lt;/p&gt;</code>
-				<h3>Rendered element:</h3>
-				<p class="paragraphStyle">This is a sample paragraph of my style guide. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-					scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
-					Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-			</section>
+		</section>
 
-			<section>
+
+
+		<section class="jumbotron">
+			<h2>Submit/Reset Buttons</h2>
+			<h3>CSS selector:</h3>
+			<p>.btn</p>
+			<h3>Sample Code:</h3>
+			<code>
+					&nbsp; &lt;button type="submit" class="btn btn-primary"&gt;Send Message&lt;/button&gt;
+				</code>
+			<h3>Rendered element:</h3>
+			<button type="submit" class="btn btn-primary">Send Message</button>
+
+		</section>
+
+		<section class="jumbotron" style="background-color:white;">
+			<h2>Text Input Field</h2>
+			<h3>CSS selector:</h3>
+			<p>.textInput</p>
+			<h3>Sample Code:</h3>
+			<code>&lt;input type="text" class="form-control" id="inputFirstName" placeholder="First name"&gt;</code>
+			<h3>Rendered element:</h3>
+			<input type="text" class="form-control" id="inputFirstName" placeholder="First name">
+		</section>
+
+	</section>
+
+	<!-- TEXT ELEMENTS SECTION // -->
+	<section id="text_elements">
+
+		<section class="jumbotron">
+			<h2>Headings</h2>
+			<h3>CSS selector:</h3>
+			<p>.h[]</p>
+			<h3>Sample Code:</h3>
+			<code>&lt;h1 class="h1"&gt; Heading 1&lt;/h1&gt;<br />&lt;h2 class="h2"&gt; Heading 2&lt;/h2&gt;<br />&lt;h3 class="h3"&gt; Heading 3&lt;/h3&gt;<br />&lt;h4 class="h4"&gt; Heading 4&lt;/h4&gt;<br />&lt;h5 class="h5"&gt; Heading 5&lt;/h5&gt;<br />&lt;h6 class="h6"&gt; Heading 6&lt;/h6&gt;</code>
+			<h3>Rendered element:</h3>
+			<h1 class="h1"> Heading 1</h1>
+			<h2 class="h2"> Heading 2</h2>
+			<h3 class="h3"> Heading 3</h3>
+			<h4 class="h4"> Heading 4</h4>
+			<h5 class="h5"> Heading 5</h5>
+			<h6 class="h6"> Heading 6</h6>
+
+		</section>
+
+		<section class="jumbotron" style="background-color:white;">
+			<h2>Paragraphs</h2>
+			<h3>CSS selector:</h3>
+			<p>p</p>
+			<h3>Sample Code:</h3>
+			<code>&lt;p&gt;This is a sample paragraph of my style guide&lt;/p&gt;</code>
+			<h3>Rendered element:</h3>
+			<p>This is a sample paragraph of my style guide. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+				scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+				Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		</section>
+		<!--
+			<section class="jumbotron">
 				<h2>Bulleted Lists</h2>
 				<h3>CSS selector:</h3>
 				<p>.bullList</p>
@@ -169,7 +161,7 @@
 
 			</section>
 
-			<section>
+			<section class="jumbotron" style="background-color:white;">
 				<h2>Numbered Lists</h2>
 				<h3>CSS selector:</h3>
 				<p>.numList</p>
@@ -182,7 +174,7 @@
 					<li> List 3</li>
 				</ol>
 
-			</section>
+			</section> -->
 
 		</section>
 		<!-- // TEXT ELEMENTS SECTION -->
@@ -191,69 +183,77 @@
 		<!-- COMBINED ELEMENTS SECTION // -->
 		<section id="combined_elements">
 
-			<section>
+			<section class="jumbotron">
 				<h2>Main Navigation</h2>
 				<h3>CSS selector:</h3>
-				<p>.nav1</p>
+				<p>.navbar</p>
 				<h3>Sample Code:</h3>
-				<code>&lt;ul&gt;<br>&lt;li&gt;&lt;a href="#"&gt;Page1&lt;/a&gt;&lt;/li&gt;
-	        	<br>&lt;li&gt;&lt;a href="#"&gt;Page2&lt;/a&gt;&lt;/li&gt;<br>&lt;li&gt;&lt;a href="#"&gt;Page3&lt;/a&gt;&lt;/li&gt;<br>&lt;/ul&gt;</code>
+				<code>
+					&lt;nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"&gt;<br />&lt;a class="navbar-brand" href="index.html"&gt;&lt;strong&gt;RICKY LALLI&lt;/strong&gt;&lt;/a&gt;<br />&lt;button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"&gt;<br />&lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;<br />&lt;/button&gt;<br />&lt;div class="collapse navbar-collapse" id="navbarSupportedContent"&gt;<br />&lt;ul class="navbar-nav ml-auto"&gt;<br />&lt;li class="nav-item"&gt;<br />&lt;a class="nav-link active" href="index.html"&gt;Work&lt;/a&gt;<br />&lt;/li&gt;<br />&lt;li class="nav-item"&gt;<br />&lt;a class="nav-link" href="feed.html"&gt;Feed&lt;/a&gt;<br />&lt;/li&gt;<br />&lt;li class="nav-item"&gt;<br />&lt;a class="nav-link" href="about.html"&gt;About&lt;/a&gt;<br />&lt;/li&gt;<br />&lt;li class="nav-item"&gt;<br />&lt;a class="nav-link" href="contact.html"&gt;Contact&lt;/a&gt;<br />&lt;/li&gt;<br />&lt;/ul&gt;<br />&lt;/div&gt;<br />&lt;/nav&gt;
+				</code>
 				<h3>Rendered element:</h3>
+				<img src="assets/nav.png" alt="">
 
-				<nav>
-					<ul class="nav1">
-						<li class="navLogo">
-							<a class="navLogo" href="index.html"><img class="nav1" src="" alt="logo placeholder"></a>
-						</li>
-						<li class="nav1">
-							<a class="navAnchor" href="aboutPage.html">About</a>
-						</li>
-						<li class="nav1">
-							<a class="navAnchor" href="showcase.html">Showcase</a>
-						</li>
-						<li class="nav1">
-							<a class="navAnchor" href="subscribeOverview.html">Subscribe</a>
-						</li>
-						<li class="nav1">
-							<a class="navAnchor" href="article_list_page.html">Articles</a>
-						</li>
-					</ul>
+				<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+					<a class="navbar-brand" href="index.html"><strong>RICKY LALLI</strong></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+		        <span class="navbar-toggler-icon"></span>
+		      </button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link active" href="index.html">Work</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="feed.html">Feed</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="about.html">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="contact.html">Contact</a>
+							</li>
+						</ul>
+					</div>
 				</nav>
 
 			</section>
-			<br><br><br>
 
 		</section>
 		<!-- // COMBINED ELEMENTS SECTION -->
+		<section class="jumbotron" style="background-color:white;">
 
-		<h2>Colour Scheme</h2>
-		<section id="colour-style">
 
-			<div class="color-one box-size">
-				<p class="mx-auto">
-					&nbsp;#FEFEFE
-				</p>
+			<h2>Colour Scheme</h2>
+			<div id="colour-style">
+
+				<div class="color-one box-size">
+					<p>
+						&nbsp;#FEFEFE
+					</p>
+				</div>
+
+				<div class="color-two box-size">
+					<p>
+						&nbsp;#FDF853
+					</p>
+				</div>
+
+				<div class="color-three box-size">
+					<p>
+						&nbsp;#C3C8CD
+					</p>
+				</div>
+
+				<div class="color-four box-size">
+					<p>
+						&nbsp;#4E5454
+					</p>
+				</div>
+
 			</div>
 
-			<div class="color-two box-size">
-				<p>
-					&nbsp;#FDF853
-				</p>
-			</div>
-
-			<div class="color-three box-size">
-				<p>
-					&nbsp;#C3C8CD
-				</p>
-			</div>
-
-			<div class="color-four box-size">
-				<p>
-					&nbsp;#4E5454
-				</p>
-			</div>
-
-			<!-- <div style="background-color: #feffff; width: 100%; height: 100px;"></div>
+		<!-- <div style="background-color: #feffff; width: 100%; height: 100px;"></div>
 		<div style="background-color: #98dafc; width: 100%; height: 100px;"></div>
 		<div style="background-color: #daad86; width: 100%; height: 100px;"></div>
 		<div style="background-color: #312c32; width: 100%; height: 100px;"></div> -->
@@ -261,7 +261,40 @@
 
 		</section>
 
-	</div>
+
+
+		<footer class="page-footer text-center pt-4 mt-4">
+
+			<div class="text-center">
+				<ul class="list-unstyled list-inline">
+					<li class="list-inline-item">
+						<a href="https://www.linkedin.com/in/ricky-lalli-054353117" class="fa fa-linkedin"></a>
+					</li>
+					<li class="list-inline-item">
+						<a href="https://twitter.com/EnBoxGaming" class="fa fa-twitter"></a>
+					</li>
+					<li class="list-inline-item">
+						<a href="https://www.behance.net/d17lallic40c" class="fa fa-behance"></a>
+					</li>
+					<li class="list-inline-item">
+						<a href="https://vimeo.com/rickylalli" class="fa fa-vimeo"></a>
+					</li>
+
+				</ul>
+			</div>
+
+		</footer>
+
+
+		<!-- Optional JavaScript -->
+
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+		<!-- not working ??? -->
+		<script src="js/jquery-3.3.1.slim.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 
 </body>
 
