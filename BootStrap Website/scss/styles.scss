@@ -8,6 +8,9 @@ $color-two: #98dafc;
 $color-three: #daad86;
 $color-four: #312c32;
 
+$btn-color: $color-two;
+$btn-color-hover: #00a8ff;
+
 
 #colour-style {
 
@@ -112,6 +115,36 @@ $color-four: #312c32;
   width: 300px;
   border: solid 4px $color-three;
 }
+
+
+.border-color {
+  background-color: red;
+  border: solid 2px red;
+}
+
+
+// adjust colour for btns
+.btn-primary {
+    background-color: $btn-color;
+    border-color: $btn-color;
+}
+.btn-primary:hover {
+    background-color: $btn-color-hover;
+    border-color: $btn-color-hover;
+}
+
+
+.intext-link {
+  color: $color-three;
+}
+
+.intext-link:hover {
+  color: $color-four;
+  text-decoration: none;
+  border-bottom: 1px solid $color-four;
+}
+
+
 
 
 @media only screen and (min-width: 500px) {

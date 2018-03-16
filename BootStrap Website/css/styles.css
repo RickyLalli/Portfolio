@@ -37,6 +37,10 @@
   font-family: 'Cabin', Helvetica, Arial, sans-serif;
 }
 
+.h3 {
+  text-align: center;
+}
+
 .h4, .h5, .h6 {
   /* font-family: WoodLands; */
   font-family: Scriptina;
@@ -73,7 +77,7 @@ body {
   line-height: 32px;
 }
 
-p {
+p.content {
   max-width: 50rem;
 }
 
