@@ -6,3 +6,28 @@
   text-decoration: none;
   list-style: none;
 }
+
+.inactive {
+  color: #e9ecef;
+  pointer-events: none;
+}
+
+.p-center {
+  text-align: center;
+}
+
+.project-showcase-1 {
+  width: 300px;
+  /* max-height: 800px; */
+}
+
+.project-header-image {
+
+}
+
+
+.header-bar {
+  margin: 0 -500%;
+  padding: 20px 500%;
+  background: #FFEFCD;
+}
