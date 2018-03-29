@@ -147,6 +147,40 @@ $btn-color-hover: #00a8ff;
   background-color: black;
 }
 
+.phone-animation {
+  width: 50%;
+}
+
+
+.inactive {
+  color: #e9ecef;
+  pointer-events: none;
+}
+
+.p-center {
+  text-align: center;
+}
+
+.project-showcase-1 {
+  width: 300px;
+  /* max-height: 800px; */
+}
+
+.project-header-image {
+
+}
+
+
+.header-bar {
+  margin: 0 -500%;
+  padding: 20px 500%;
+  background: #FFEFCD;
+}
+
+.app-layouts {
+  margin-bottom: 2rem;
+}
+
 @media only screen and (max-width: 991px) {
   .embed-responsive {
     width: 100%;

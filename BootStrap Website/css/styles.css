@@ -50,10 +50,10 @@
 }
 
 /* remove bootstrap rounder corner on all */
-
-* {
+/* ALERT!!!! This effects the border of phones on humango page */
+/* * {
   border-radius: 0 !important;
-}
+} */
 
 /*
 
