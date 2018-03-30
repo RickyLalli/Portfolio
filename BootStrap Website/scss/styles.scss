@@ -166,8 +166,40 @@ $btn-color-hover: #00a8ff;
   /* max-height: 800px; */
 }
 
-.project-header-image {
 
+/* move to scss on PC */
+
+.app-layouts {
+  margin-bottom: 2rem;
+  /* background-color: #e9ecef; */
+}
+
+p.humango-content {
+  /* line-height: 2; */
+}
+
+
+.header-bar {
+  margin: 0 -500%;
+  padding: 20px 500%;
+  background: #FFEFCD;
+  margin-bottom: 1rem;
+}
+
+.h3 .header-bar {
+  color: white;
+}
+
+.main-linebreak {
+  border-top: 1px solid rgba(152, 218, 252, 1);
+}
+
+.project-heading {
+margin-top: 3em;
+}
+
+hr {
+  margin-bottom: 2rem;
 }
 
 
