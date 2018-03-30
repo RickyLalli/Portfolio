@@ -51,9 +51,9 @@
 
 /* remove bootstrap rounder corner on all */
 /* ALERT!!!! This effects the border of phones on humango page */
-/* * {
+.card-img, .card {
   border-radius: 0 !important;
-} */
+}
 
 /*
 
