@@ -26,6 +26,11 @@
   src: url(../fonts/TheWoodlands-Regular.otf);
 }
 
+@font-face {
+  font-family: Summit;
+  src: url(../fonts/Summit/Summit_TrueType/SummitThin-Solid.ttf);
+}
+
 
 .h1, .h2, .h3 {
   /* font-family: PTSansBold; */
@@ -35,6 +40,12 @@
 
 .h3 {
   text-align: center;
+}
+
+.special-card-text {
+  font-family: Summit;
+  font-size: 2rem;
+  font-weight: 400;
 }
 
 .h4, .h5, .h6 {
