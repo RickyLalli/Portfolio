@@ -80,54 +80,47 @@
 
         </div>
 
-
-
-     
-
-
-        <form action="https://formspree.io/f/xaylvedp" method="POST">
+        <form>
           <div class="row">
             <label for="inputFirstName" class="col-sm-2 col-form-label">First&nbsp;Name&#42;</label>
             <div class="col-sm-12 col-md-4 mb-5">
-              <input type="text" class="form-control" id="inputFirstName" placeholder="First name">
+              <input type="text" class="form-control" id="inputFirstName" name="inputFirstName" placeholder="First name">
             </div>
             <label for="inputLastName" class="col-sm-2 col-form-label">Last&nbsp;Name</label>
             <div class="col-sm-12 col-md-4 mb-5">
-              <input type="text" class="form-control" id="inputLastName" placeholder="Last name">
+              <input type="text" class="form-control" id="inputLastName" name="inputLastName" placeholder="Last name">
             </div>
           </div>
-        
+        </form>
 
-        
+        <form>
           <div class="row">
             <label for="inputEmail" class="col-sm-2 col-form-label">Email&#42;</label>
             <div class="col-sm-12 col-md-4 mb-5">
-              <input type="email" class="form-control" name="_replyto" id="inputEmail" placeholder="Email">
+              <input type="text" class="form-control" id="inputEmail" name="inputEmail" placeholder="Email">
             </div>
             <label for="inputTopic" class="col-sm-2 col-form-label">Topic&#42;</label>
             <div class="col-sm-12 col-md-4 mb-5">
-              <input type="text" class="form-control" id="inputTopic" placeholder="Topic">
+              <input type="text" class="form-control" id="inputTopic" name="inputTopic" placeholder="Topic">
             </div>
           </div>
-        
+        </form>
 
-        
+        <form>
           <div class="row">
             <label for="inputMessage" class="col-sm-2 col-form-label">Message&#42;</label>
             <div class="col-sm-12 col-md-10 mb-5">
-              <textarea class="form-control" name="body" id="inputMessage" rows="3" placeholder="Message..."></textarea>
+              <textarea class="form-control" id="inputMessage" name="inputMessage" rows="3" placeholder="Message..."></textarea>
             </div>
           </div>
-        
+        </form>
 
 
         <div class="row">
           <div class="mx-auto">
-            <button type="submit" value="Send" class="btn btn-primary">Send Message</button>
+            <button type="submit" class="btn btn-primary" name="submit">Send Message</button>
           </div>
         </div>
-
-      </form>
 
       </div>
 
@@ -135,6 +128,18 @@
 
 
     </section>
+
+
+    <?php
+
+
+
+
+
+
+
+
+      ?>
 
 
 
@@ -182,45 +187,3 @@
 </body>
 
 </html>
-
-
-
-
-
-<!-- 
-
-
-<form>
-  <div class="row">
-    <label for="inputFirstName" class="col-sm-2 col-form-label">First&nbsp;Name&#42;</label>
-    <div class="col-sm-12 col-md-4 mb-5">
-      <input type="text" class="form-control" id="inputFirstName" placeholder="First name">
-    </div>
-    <label for="inputLastName" class="col-sm-2 col-form-label">Last&nbsp;Name</label>
-    <div class="col-sm-12 col-md-4 mb-5">
-      <input type="text" class="form-control" id="inputLastName" placeholder="Last name">
-    </div>
-  </div>
-</form>
-
-<form>
-  <div class="row">
-    <label for="inputEmail" class="col-sm-2 col-form-label">Email&#42;</label>
-    <div class="col-sm-12 col-md-4 mb-5">
-      <input type="text" class="form-control" id="inputEmail" placeholder="Email">
-    </div>
-    <label for="inputTopic" class="col-sm-2 col-form-label">Topic&#42;</label>
-    <div class="col-sm-12 col-md-4 mb-5">
-      <input type="text" class="form-control" id="inputTopic" placeholder="Topic">
-    </div>
-  </div>
-</form>
-
-<form>
-  <div class="row">
-    <label for="inputMessage" class="col-sm-2 col-form-label">Message&#42;</label>
-    <div class="col-sm-12 col-md-10 mb-5">
-      <textarea class="form-control" id="inputMessage" rows="3" placeholder="Message..."></textarea>
-    </div>
-  </div>
-</form> -->
